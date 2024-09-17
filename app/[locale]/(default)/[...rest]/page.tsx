@@ -6,6 +6,8 @@ import { locales } from '~/i18n';
 import { client } from '~/lib/makeswift/client';
 import { MakeswiftProvider } from '~/lib/makeswift/provider';
 
+import '~/lib/makeswift/components';
+
 interface CatchAllParams {
   locale: string;
   rest: string[];
